@@ -1,14 +1,16 @@
 html{
-	background: silver;
-}
-body{
+	background: url("assets/img/jpg/content-bg.jpg");
 	width: 1120px;
 	margin: 20px auto;
 }
-/*.container{
-	position: flex;
+body{
+
+}
+.container{
+	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	flex-flow: center;
 }
 header .left{
 	width: 75px;
@@ -16,17 +18,51 @@ header .left{
 	background: gray;
 
 }
+header .center{
+	width: 970px;
+	height: 40px;
+	background: red;
+}
 header .right{
 	width: 75px;
 	height: 40px;
 	background: blue;
 }
-header .center{
-	width: 900px;
+header .left1{
+	width: 75px;
 	height: 40px;
-	background: blue;
+	background: black;
+
 }
-*/
+.menu {
+	clear: both;
+	background: green;
+	width: 150px;
+	text-align: left;
+}
+.menu li span{
+	float: right;
+
+}
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+.menu li{
+	font-size: 16px;
+
+	border-bottom: 1px solid white;
+	text-decoration: none;
+	color: white;
+	line-height: 1.5em;
+}
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
 /*html{
 	background: silver;
 	width: 1120px;
