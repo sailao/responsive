@@ -1,92 +1,95 @@
 html{
-	background: black;
-	width: 1120px;
-	margin: 20px auto;
+	background: #bfbfbf;
+	margin: 2px auto;
+	
 }
 body{
 	/*background: url("../img/jpg/nav-bg.jpg");*/
+
 }
 .container{
-	display: flex;
+	/*margin: 20px auto;*/
+	/*display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
-	flex-flow: center;
+	flex-wrap: wrap;*/
+	/*overflow: hidden;*/
+}
+.wrap-inner{
+}
+.topbar{
+	height: 74px;
+	background: 005e9b;
 }
 header{
 	background: url("../img/jpg/nav-bg.jpg");
 }
 header .left{
-	width: 80px;
-	height: 50px;
+	float: left;
+	width: 162px;
+	height: 73px;
 	background: #1576b6;
 
 }
+header .right{
+	float: left;
+	width: 150px;
+	height: 73px;
+	background: #005e9b;
+}
 header .left2{
-	width: 110px;
-	height: 50px;
-	background:url("../img/jpg/nav-bg.jpg");
+	clear: both;
+	height: 305px;
+	width: 162px;
+	/*background:url("../img/jpg/nav-bg.jpg");*/
 
 }
 header .center{
-	padding: 0 0 0 10px;
-	width: 870px;
-	height: 50px;
-	background: #005d9a;
-	line-height: 80px;
+	float: left;
+	width: 976px;
+	height: 73px;
+	background: #005e9b;
+	line-height: 73px;
 }
-header .right{
-	width: 50px;
-	height: 80px;
-	background: blue;
+.center img{
+	padding-left: 
+	width: 159px;
+	height: 34px;
 }
 
-header .left1{
-	background: #005d9a;
+.menu{
 	clear: both;
-	width: 130px;
-	text-align: left;
+	overflow: hidden;
 }
-.menu ul{
+header .left2{
+	float: left;
+	background: #005d9a;
+	width: 130px;
+}
+.menubar ul{
+	background: #005e9b;
 	margin: 0;
 	padding: 5px;
 	list-style: none;
 
 }
-.menu li{
+.menubar li{
 	border-bottom: 1px solid white;
 	text-decoration: none;
 	line-height: 3em;
 }
-.menu a{
+.menubar a{
 	font-size: 12px;
 	color: white;
 	text-decoration: none;
 }
-.menu a span{
+.menubar a span{
 	float: right;
 	position: relative;
 	right: 10px;
 }
-section .navleft{
-	background: url("../img/content-bg.jpg");
-	width: 240px;
-	height: 3800px;
-	float: left;
-}
-	section .navright{
-	background: url("../img/content-bg.jpg");
-	width: 180px;
-	height: 3800px;
-	float: right;
-}
-
-	section .art{
-	background:url("../img/jpg/nav-bg.jpg");
-
-}
 
 
-/*@media (max-width: 30em) {
+/*@media screen &(max-width: 1024px) {
 html {
 	background: url("../assets/img/banner.png");
 	background-repeat: repeat;

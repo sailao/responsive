@@ -11,7 +11,7 @@
 <meta property="og:image" content=" " />
 <link href="shared/img/favicon.ico" rel="shortcut icon" />
 <link href="shared/css/style.css" rel="stylesheet" type="text/css" />
-<link href="shared/css/resp.css" rel="stylesheet" type="text/css" />
+<link href="shared/css/normalize.css" rel="stylesheet" type="text/css" />
 <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre:700' rel='stylesheet' type='text/css'>
 
 <!--[if lt IE 9]>
@@ -24,10 +24,12 @@
 <body>
 
 	   <div id="container">
+
       <div class="wrap-inner">
 
-        <header id="top-head">
-          <div class="header-wrap">
+        <header id="top-head" style="display: block;">
+
+          <div class="header-wrap" >
 
             <div class="l-h">
             </div><!--END l-h-->
@@ -42,10 +44,10 @@
                           <img src="shared/img/synapselogo_360.png" alt="synapse" />
                         </a>
                       </div> <!--END logo-pic-->
-											<div class="small-menu">
+											<div class="small-menu" style="display: none;">
 												<a id="nav-btn" href="#"><img src="shared/img/head_icon_smpmenu.png" width="28" height="28" alt="synapse"></a>
 											</div>
-											<div class="nav-smp">
+											<div class="nav-smp" style="display: none;">
 												<ul>
 													<li>
 														<a href="#">ABOUT</a>
@@ -81,37 +83,37 @@
           </div><!--END header-wrap-->
         </header><!--End top-head-->
 
-        <header id="bottom-head" class="gray-bkg">
+        <header id="bottom-head" class="gray-bkg" >
           <div class="subh-wrap">
               <div id="nav">
-                  <ul>
-                    <li>
-                      <a href="#">ABOUT</a>
+                  <ul >
+                    <li >
+                      <a href="#">ABOUT <span>&gt;</span></a>
                     </li>
                     <li>
-                      <a href="#">PEOPLE</a>
+                      <a href="#">PEOPLE<span>&gt;</span></a>
                     </li>
                     <li>
-                      <a href="#">STRATEGY</a>
+                      <a href="#">STRATEGY<span>&gt;</span></a>
                     </li>
                     <li>
-                      <a href="#">ROLE & STAGE</a>
+                      <a href="#">ROLE & STAGE<span>&gt;</span></a>
                     </li>
                     <li>
-                      <a href="#">PORTFOLIO</a>
+                      <a href="#">PORTFOLIO<span>&gt;</span></a>
                     </li>
                     <li>
-                      <a href="#">CONTACT</a>
+                      <a href="#">CONTACT<span>&gt;</span></a>
                     </li>
                   </ul>
               </div><!--END nav-->
 
               <div class="banner">
-                <img src="shared/img/banner.png" width="970" height="300" alt="synpase" />
+                <img src="shared/img/banner.png" width="970" height="312" alt="synpase" />
               </div><!--END banner-->
 
 
-              <div class="banner-small">
+              <div class="banner-small" style="display: none;">
                 <img src="shared/img/small-bnr.png" width="320" height="99">
               </div>
 
@@ -137,7 +139,7 @@
                 <section class="sec2">
                   <h1>ABOUT</h1>
                   <h3 class="hd">Where Synapse origin from</h3>
-                  <h3 class="sh">Portfolio Ecosystem Value Chain</h4>
+                  <h3 class="sh">Portfolio Ecosystem Value Chain</h3>
                   <p>There are over one hundred billion nerve cells in human brain and approximately fifteen billion cells in cerebral cortex which are used for the five senses of human being. The nerve cells are connected by extending its projections. Therefore, this junction of two nerve cells is called Synapse and the origin of this word from Greek.</p>
 
                   <div class="inner-sec">
